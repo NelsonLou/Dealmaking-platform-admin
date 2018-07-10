@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.clearfloat {
+  zoom: 1;
+}
+
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+
+.page {
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.marginTop {
+  margin-top: 20px;
+}
+
+.marginBottom {
+  margin-bottom: 20px;
+}
+
+.marginLeft {
+  margin-left: 20px;
+}
+
+.marginRight {
+  margin-right: 20px;
+}
+
+.block {
+  display: block;
+}
+
+.formInput {
+  width: 200px;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.filterInput {
+  width: 150px;
+}
+
+/* 灰色 */
+
+.gray {
+  color: #9a9a9a;
+}
+
+.red {
+  color: red,
+}
+
+.green {
+  color: green,
+}
+
+/* 部分单页属性 */
+
+.agentsList-li {
+  width: 25%;
+}
+
+.agentsList-li span {
+  text-align: center;
+  display: block;
+}
